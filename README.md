@@ -2,6 +2,7 @@
 
 
 About - Sobre
+
 #ENGLISH
 This is a plugin for fivem to help in the creation of zones to relieve stress.
 
@@ -9,6 +10,7 @@ This is a plugin for fivem to help in the creation of zones to relieve stress.
 Este es un plugin para fivem para ayudar en la creación de zonas para quitar estres.
 
 Installation - Instalación
+
 #ENGLISH
 - Download the latest version from GitHub.
 - Put the folder in the [standalone] folder.
@@ -19,6 +21,7 @@ Installation - Instalación
 - Configure el archivo de configuración si hace falta ( Recuerde que tiene que iniciar despues de  esx_basicneeds y esx_status, para esx y despues de qb-hud para QBCORE.
 
 Configuration - Configuración
+
 #ENGLISH
 - The important thing to configure is in the config.lua file that you have to choose if it is ESX or not, in the Config.esxFrame option. Remember that "true" is esx and "false" is qbcore.
 - You also have to add in Config.stressZones the locations of the stress zones.
