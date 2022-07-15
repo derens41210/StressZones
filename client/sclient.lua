@@ -19,7 +19,7 @@ if Config.esxFrame == true then
 				local distanciaZona = #(coordenadasUsuario - zonaAntiEstres)
 
 				if distanciaZona < distanciaMax then
-					print(Config.cantidadStressReducir)
+					
 					TriggerEvent('esx_status:remove', 'stress', Config.cantidadStressReducir)
 					TriggerEvent("pNotify:SendNotification", {text = Config.strings.menssageStressDown})
 				end
