@@ -2,7 +2,7 @@
 -- ║    ╚╗ ║       ║    ╚╗  ║       ║╚╗  ║ ║
 -- ║     ║ ╠═══    ╠╦════╝  ╠═══    ║ ╚╗ ║ ╚═════╗
 -- ║    ╔╝ ║       ║╚═╗     ║       ║  ╚╗║       ║
--- ╚════╝  ╚══════ ║  ╚═╗	╚══════ ║   ╚╝ ══════╝
+-- ╚════╝  ╚══════ ║  ╚═╗   ╚══════ ║   ╚╝ ══════╝
 -- Version 1.0 
 
 if Config.esxFrame == true then
@@ -29,7 +29,6 @@ if Config.esxFrame == true then
 		end
 	end)
 else
-	local QBCore = exports['qb-core']:GetCoreObject()
 	local segundosTotal = Config.segundosDelay * 1000
 
 	CreateThread(function()

@@ -6,10 +6,12 @@ About - Sobre
 #ENGLISH
 
 This is a plugin for fivem to help in the creation of zones to relieve stress.
+For REDM it will only work with QBCORE.
 
 #SPANISH
 
 Este es un plugin para fivem para ayudar en la creación de zonas para quitar estres.
+Para REDM sólo funcionará con QBCORE.
 
 
 
@@ -32,7 +34,9 @@ Configuration - Configuración
 #ENGLISH
 - The important thing to configure is in the config.lua file that you have to choose if it is ESX or not, in the Config.esxFrame option. Remember that "true" is esx and "false" is qbcore.
 - You also have to add in Config.stressZones the locations of the stress zones.
+- If you put more than one coordinate, remember that only the last one goes without a comma at the end, the others have a comma at the end.
 
 #SPANISH
 - Lo importante para configurar es en el archivo config.lua que tiene que elegir si es ESX o no, en la opción Config.esxFrame. Recuerde que "true" es esx y "false" es qbcore.
 - Tambien tiene que añadir en Config.stressZones las ubicaciones de las zonas anti estres.
+- Si pones mas de una coordenada, recuerda que solo la ultima va sin coma al final, las demas tienen coma al final.
