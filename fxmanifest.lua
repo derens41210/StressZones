@@ -3,7 +3,7 @@ game 'gta5'
 
 author 'derens41210 <fivem@derhos.es>'
 description 'plugin to set anti-stress zones'
-version '1.0'
+version '1.1'
 
 shared_script 'config.lua'
 
